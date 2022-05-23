@@ -18,7 +18,7 @@ RUN npm install
 COPY . . 
 
 # กำหนดให้ Image เปิด PORT 3000 ให้ภายนอกเข้าถึงได้
-EXPOSE 3000
+EXPOSE 4000
 
 # รันคำสั่ง npm start ตอน container เริ่มการทำงาน
 CMD ["npm","start"]
